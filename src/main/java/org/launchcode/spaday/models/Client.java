@@ -6,7 +6,7 @@ public class Client {
 
     private String skinType;
     private String nailService;
-    private ArrayList<String> appropriateFacials = new ArrayList<>();
+    private final ArrayList<String> appropriateFacials = new ArrayList<>();
 
     public Client(String skinType, String nailService) {
         this.skinType = skinType;
